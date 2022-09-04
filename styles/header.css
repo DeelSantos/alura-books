@@ -21,6 +21,10 @@
     
 }
 
+.container__botao {
+    display: none;
+}
+
 .container__imagem {
     padding: 10px;
 }
@@ -29,7 +33,7 @@
     display: none;
     position: absolute;
     top: 100%;
-    width: 60vw;
+    width: 70vw;
     text-decoration: none;
 }
 
@@ -44,6 +48,7 @@
 
 .lista-menu__titulo {
     color: var(--cor-botao);
+    font-weight: 700;
 }
 
 .lista-menu__link {
