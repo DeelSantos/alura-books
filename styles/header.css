@@ -23,6 +23,7 @@
 
 .container__botao {
     display: none;
+    
 }
 
 .container__imagem {
@@ -35,10 +36,12 @@
     top: 100%;
     width: 70vw;
     text-decoration: none;
+    
 }
 
 .container__botao:checked~.lista-menu {
     display: block;
+    
 }
 
 .lista-menu__titulo, .lista-menu__item {
