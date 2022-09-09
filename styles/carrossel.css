@@ -1,4 +1,5 @@
 .carrossel__titulo {
+    background: white;
     color: var(--cor-botao);
     text-align: center;
     text-transform: uppercase;
@@ -73,10 +74,4 @@
     color: var(--branco);
     font-weight: 700;
     text-decoration: none;
-}
-
-.botoes__ancora:hover {
-    transition: 1s;
-    background-color: var(--azul);
-    
 }
