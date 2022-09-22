@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alura Books</title>
     <link rel="stylesheet" href="reset.css">
@@ -12,9 +12,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="style.css">
-    
-    
 </head>
+
 <body>
     <header class="cabecalho">
         <div class="container">
@@ -91,9 +90,11 @@
     </section>
     <section class="carrossel">
         <h2 class="carrossel__titulo">Ultimos Lançamentos</h2>
-        <div class="swiper">
+        <div class="carrossel__container">
+            <div class="swiper">
             <!-- Additional required wrapper -->
             <div class="swiper-pagination"></div>
+
             <div class="swiper-wrapper">
               <!-- Slides -->
               <div class="swiper-slide"><img src="imagens/ApacheKafka.svg" alt="Livro sobre Apache Kafta"></div>
@@ -127,6 +128,7 @@
                 <!-- 2ª coluna -->
                 <img src="imagens/Perfil-escritora 2.svg" alt="Imagem de logo do Angular" class="descricao__imagem">
             </div>
+
             <!-- 2ª Linha -->
             <div class="card__botoes">
                 <ul class="botoes">
@@ -136,6 +138,7 @@
                 <a href="#" class="botoes__ancora">Saiba Mais</a>
             </div>
           </div>
+        </div> 
     </section>
     <section class="carrossel">
         <h2 class="carrossel__titulo">Mais Vendidos</h2>
