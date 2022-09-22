@@ -67,3 +67,17 @@
         padding: 3em 0;
     }
 }
+
+
+@media screen and (max-width: 320px) {
+    .banner__pesquisa {
+       padding: 1em 0.5em ;
+        
+    }
+
+    .banner__pesquisa::placeholder {
+        background: 0.2em;
+    }
+    
+    
+}
