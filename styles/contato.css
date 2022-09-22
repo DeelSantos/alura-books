@@ -35,14 +35,6 @@ hr {
     margin: 0;
 }
 
-.rodape {
-    background-color: white;
-    padding: 1em;
-}
-
-.rodape__titulo {
-    font-weight: 400;
-}
 
 @media screen and (min-width: 1024px) {
     .contato {
@@ -62,5 +54,39 @@ hr {
 
     .contato__email {
         width: 30%;
+    }
+}
+
+.rodape {
+    background-color: white;
+    padding: 1em;
+}
+
+.rodape__titulo {
+    font-weight: 400;
+}
+
+
+@media screen and (min-width: 1024px) {
+    .rodape{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .rodape__lista-titulo {
+        font-size: 14px;
+        color: #858585;
+    }
+    
+    .rodape__lista-item {
+        display: flex;
+        align-items: center;
+        
+    }
+
+    .rodape__lista-link {
+        color: #474646;
+        text-decoration: none;
+        margin: 0.6em;
     }
 }
